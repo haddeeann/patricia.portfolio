@@ -1,6 +1,8 @@
 .container {
     display: flex;
     background-color: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+    color: #505050;
 }
 
 .sidebar {
@@ -23,14 +25,17 @@
     scroll to the tippy top of content
 */
 .content {
-    padding-top: 25px;
+    padding-top: 15px;
 }
 
-.box {
+.box:last-child {
     min-height: 100vh;
-    padding: 25px;
 }
 
 .box:not(:first-child) {
-    margin-top: 25px;
+    padding: 17px 35px;
+}
+
+p {
+    line-height: 2;
 }

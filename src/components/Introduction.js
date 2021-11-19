@@ -2,11 +2,9 @@ import React from 'react';
 
 const Introduction = () => {
     return (
-        <div className='box'> 
+        <div className='box intro'> 
             <div className='inner-box' id='intro'>
-                <div className='content'>
-                    introducing the ... INTRODUCTION!
-                </div>
+                <div className='content'></div>
             </div>
         </div>
     );

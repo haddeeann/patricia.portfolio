@@ -1,0 +1,30 @@
+.intro {
+    background-color: lightblue;
+    background-image: url('../images/profile_header.jpg');
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.three-item-list {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.three-item-list div {
+    flex-grow: 1;
+    box-shadow: #e4e4e4 0px 8px 24px;
+    padding: 20px;
+}
+
+.three-item-list hr {
+    background-color: red;
+    width: 50%;
+}
+
+#time .content div {
+    background-color: #e4e4e4;
+    padding: 15px;
+}
