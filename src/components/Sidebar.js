@@ -6,8 +6,8 @@ const Sidebar = () => {
             <div className='profile'>
                 <div className='author-img' />
                 <div className='author-des'>
-                    <h3>Haddee Ann</h3>
-                    <i class="fas fa-envelope"></i> haddeeann@gmail.com
+                    <h3>Patricia</h3>
+                    <i class="fas fa-envelope"></i> pattee13@gmail.com
                 </div>
                 <div className='nav-section'>
                     <nav>
