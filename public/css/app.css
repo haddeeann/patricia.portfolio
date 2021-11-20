@@ -9,7 +9,7 @@
     flex-basis: 20vw;
     height: 100vh - 50px; /* height is 100% of viewer height - padding on top and bottom */
     padding: 25px;
-    background-color: #f2f3f7;
+    background-color: #e9e9e9;
 }
 
 /* main div, there is a SIDEBAR, and then next to it is a BAR.
