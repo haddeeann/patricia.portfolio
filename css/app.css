@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    background-color: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+    color: #505050;
+}
+
+.sidebar {
+    flex-basis: 20vw;
+    height: 100vh - 50px; /* height is 100% of viewer height - padding on top and bottom */
+    padding: 25px;
+    background-color: #e9e9e9;
+}
+
+/* main div, there is a SIDEBAR, and then next to it is a BAR.
+    I know, but it has to be named something, right?
+*/
+.bar {
+    flex-grow: 1;
+    height: 100vh;
+    overflow: auto;
+}
+
+/* this literall just gives space above the content, so a user doens't 
+    scroll to the tippy top of content
+*/
+.content {
+    padding-top: 15px;
+}
+
+.box:last-child {
+    min-height: 100vh;
+}
+
+.box:not(:first-child) {
+    padding: 17px 35px;
+}
+
+p {
+    line-height: 2;
+}
