@@ -1,13 +1,3 @@
-.intro {
-    background-color: lightblue;
-    background-image: url('../images/profile_header.jpg');
-    height: 50vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.93;
-}
-
 .three-item-list {
     display: flex;
     gap: 20px;
