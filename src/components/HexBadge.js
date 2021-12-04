@@ -6,7 +6,7 @@ const HexBadge = ({ badge }) => {
             <div className='hexBadgeInner'>
                 <div className='hexBadgeTop' />
                 <div className='hexBadgeMiddle'>
-                    <i class={`fas fa-${badge} fa-3x`}></i>
+                    <i className={`fas fa-${badge} fa-3x`}></i>
                 </div>
                 <div className='hexBadgeBottom' />
             </div>

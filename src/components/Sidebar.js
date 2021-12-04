@@ -7,7 +7,7 @@ const Sidebar = () => {
                 <div className='author-img' />
                 <div className='author-des'>
                     <h3>Patricia</h3>
-                    <i class="fas fa-envelope"></i> pattee13@gmail.com
+                    <i className="fas fa-envelope"></i> pattee13@gmail.com
                 </div>
                 <div className='nav-section'>
                     <nav>
@@ -17,8 +17,16 @@ const Sidebar = () => {
                         <div className='nav-link'><a href='#time'>Timeline</a></div>
                     </nav>
                 </div>
+                <div className='social'>
+                    <h3>Social & Sites</h3>
+                    <ul>
+                        <li><a href='https://codepen.io/pattee' target='_blank' rel='noreferrer'>Code Pen</a></li>
+                        <li><a href='https://stackoverflow.com/users/2022724/someone-alive' target='_blank' rel='noreferrer'>Stack Overflow</a></li>
+                        <li><a href='https://www.linkedin.com/in/patricia-green-63a3a4167/' target='_blank' rel='noreferrer'>Linked In</a></li>
+                    </ul>
+                </div>
                 <div className='credit-section'>
-                    Made with <i class="fas fa-heart"></i> and <i class="fas fa-mug-hot"></i>
+                    Made with <i className="fas fa-heart"></i> and <i className="fas fa-mug-hot"></i>
                 </div>
             </div>
         </div>
