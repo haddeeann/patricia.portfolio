@@ -1,0 +1,23 @@
+.intro {
+    background-color: lightblue;
+    background-image: url('../images/profile_header.jpg');
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.imageTextBox {
+    position: absolute;
+    height: 150px;
+    bottom: 0;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 900;
+    color: #eee;
+    font-family: sans-serif;
+    text-align: center;
+    letter-spacing: 1.25px;
+    opacity: 0.95;
+}
