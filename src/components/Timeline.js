@@ -12,7 +12,7 @@ const Timeline = () => {
                             <div className='edit-icon'><i className="fa fa-pencil" aria-hidden="true"></i></div>
                         </div>
                         <div className='time-box-inner'>
-                            <h4>Software Developer at Yummy Apps</h4>  <span>January 2020 to Present</span>
+                            <h4>Software Developer at Yummy Apps</h4>  <span>January 2021 to Present</span>
                             <p>I've started my own app development company <a href='https://www.yummyapps.io/' target="_blank" rel='noreferrer'>Yummy Apps</a>. We make products that help people acheive better lives through healthy habits.</p>
                         </div>
                     </div>
