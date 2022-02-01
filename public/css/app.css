@@ -39,3 +39,22 @@
 p {
     line-height: 2;
 }
+
+@media(max-width: 976px) {
+    .container {
+        flex-flow: column;
+    }
+    .box {
+        padding: 0 15px;
+    }
+    .three-item-list {
+        flex-wrap: wrap;
+    }
+    .item-box {
+        margin-top: 115px;
+    }
+    .author-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

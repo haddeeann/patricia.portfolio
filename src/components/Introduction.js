@@ -45,7 +45,7 @@ const Introduction = () => {
     });
 
     return (
-        <div>
+        <div id='image-box-header'>
             <div className='box intro' ref={el}> 
                 <div className='inner-box' id='intro'>
                     <div className='content'></div>

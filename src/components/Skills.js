@@ -9,7 +9,7 @@ const Skills = () => {
                     <h3>TECHNICAL SKILLS</h3>
                     <h4>Let's talk nerdy</h4>
                     <div className='three-item-list'>
-                        <div className='itemBox'>
+                        <div className='item-box'>
                             <HexBadge badge='code' />
                             <div className='item'>
                                 <h5>PROGRAMMING LANGUAGES</h5>
@@ -17,7 +17,7 @@ const Skills = () => {
                                 <p>I mostly focus on JavaScript and the libraries assocaited with JavaScript. I like developing in React and working with Node. When I'm not using JavaScript my preference is Python.</p>
                             </div>
                         </div>
-                        <div className='itemBox'>
+                        <div className='item-box'>
                             <HexBadge badge='cogs' />
                             <div className='item'>
                                 <h5>DATA ANALYSIS</h5>
@@ -25,7 +25,7 @@ const Skills = () => {
                                 <p>I'm learning more about data managment because I'm interested in machine learning and artificial intelligence. I think sticking with JavaScript and Python fits nicely into this goal.</p>
                             </div>
                         </div>
-                        <div className='itemBox'>
+                        <div className='item-box'>
                             <HexBadge badge='blender-phone' />
                             <div className='item'>
                                 <h5>ALGORITHMS</h5>
