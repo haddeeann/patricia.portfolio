@@ -23,6 +23,7 @@
 
 .time-box {
     display: flex;
+    margin-bottom: 2em;
 }
 
 .edit-icon {

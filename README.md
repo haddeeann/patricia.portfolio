@@ -1,1 +1,4 @@
-This is a portfolio page template. It's used to make different portfolios for Yummy Apps employees and publish them to github pages.
+This is a portfolio page for Patricia Green. 
+This branch is made with React and then the built version is deployed on my gh-pages and published. 
+
+If you are here you are looking at my React code that is used to generate the portfolio page.
