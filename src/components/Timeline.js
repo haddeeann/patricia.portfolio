@@ -13,6 +13,9 @@ const Timeline = () => {
                         <div className='time-box-inner'>
                             <h3>Fullstack Developer</h3>
                             <h4>PivotCX</h4>
+                            <div>
+                                <a href='https://github.com/patricia-work-work' target='_blank'>PivotCX Github</a>
+                            </div>
                             <div>Februrary 2022 to Present</div>
                             <p>We help recruiters reach the right candidates at fast speeds.</p>
                         </div>

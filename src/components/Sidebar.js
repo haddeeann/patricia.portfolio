@@ -18,6 +18,7 @@ const Sidebar = () => {
                 <div className='social'>
                     <h3>Social & Sites</h3>
                     <ul>
+                        <li><a href='https://github.com/haddeeann' target='_blank'>Personal Github</a></li>
                         <li><a href='https://leetcode.com/pattee/' target='_blank' rel='noreferrer'>Leet Code</a></li>
                         <li><a href='https://codepen.io/pattee' target='_blank' rel='noreferrer'>Code Pen</a></li>
                         <li><a href='https://stackoverflow.com/users/2022724/someone-alive' target='_blank' rel='noreferrer'>Stack Overflow</a></li>
