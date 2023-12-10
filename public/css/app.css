@@ -51,8 +51,13 @@ p {
     .box {
         padding: 0 15px;
     }
+    .content {
+        text-align: center;
+    }
     .three-item-list {
         flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 0;
     }
     .item-box {
         margin-top: 115px;
@@ -60,5 +65,14 @@ p {
     .author-img {
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media(min-width: 977px) {
+    .three-item-list {
+        display: flex;
+        gap: 20px;
+        text-align: center;
+        margin-top: 75px;
     }
 }
