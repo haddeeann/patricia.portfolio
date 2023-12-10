@@ -1,9 +1,4 @@
-.three-item-list {
-    display: flex;
-    gap: 20px;
-    text-align: center;
-    margin-top: 75px;
-}
+
 
 .item-box {
     position: relative;
