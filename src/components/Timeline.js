@@ -11,13 +11,12 @@ const Timeline = () => {
                             <div className='edit-icon'><i className="fa fa-pencil" aria-hidden="true"></i></div>
                         </div>
                         <div className='time-box-inner'>
-                            <h3>Fullstack Developer</h3>
-                            <h4>PivotCX</h4>
-                            <div>
-                                <a href='https://github.com/patricia-work-work' target='_blank'>PivotCX Github</a>
-                            </div>
-                            <div>Februrary 2022 to Present</div>
-                            <p>We help recruiters reach the right candidates at fast speeds.</p>
+                            <a href='https://pivotcx.io/' target='_blank'>
+                                <h3>Fullstack Developer</h3>
+                                <h4>PivotCX</h4>
+                                <div>Februrary 2022 to Present</div>
+                                <p>We help recruiters reach the right candidates at fast speeds.</p>
+                            </a>
                         </div>
                     </div>
                     <div className='time-box'>
@@ -25,10 +24,12 @@ const Timeline = () => {
                             <div className='edit-icon'><i className="fa fa-pencil" aria-hidden="true"></i></div>
                         </div>
                         <div className='time-box-inner'>
-                            <h3>Software Developer</h3>
-                            <h4>Yellow Umbrella Creators</h4>
-                            <div>January 2021 to Present</div>
-                            <p>Yellow Umbrella Creators is my personal project company.</p>
+                            <a href='' target='_blank'>
+                                <h3>Software Developer</h3>
+                                <h4>Yellow Umbrella Creators</h4>
+                                <div>January 2021 to Present</div>
+                                <p>Yellow Umbrella Creators is my personal project company.</p>
+                            </a>
                         </div>
                     </div>
                     <div className='time-box'>
@@ -36,10 +37,12 @@ const Timeline = () => {
                             <div className='edit-icon'><i className="fa fa-pencil" aria-hidden="true"></i></div>
                         </div>
                         <div className='time-box-inner'>
-                            <h3>Software Developer</h3>
-                            <h4>SharpSpring acquired by Constant Contact</h4>
-                            <div>March 2020 to January 2021</div>
-                            <p>Constant Contact helps achieve automation in communicating with customers and marketing.</p>
+                            <a href='https://www.constantcontact.com/' target='_blank'>
+                                <h3>Software Developer</h3>
+                                <h4>SharpSpring acquired by Constant Contact</h4>
+                                <div>March 2020 to January 2021</div>
+                                <p>Constant Contact helps achieve automation in communicating with customers and marketing.</p>
+                            </a>
                         </div>
                     </div>
                     <div className='time-box'>
@@ -47,12 +50,14 @@ const Timeline = () => {
                             <div className='edit-icon'><i className="fa fa-pencil" aria-hidden="true"></i></div>
                         </div>
                         <div className='time-box-inner'>
-                            <h3>Software Developer</h3>
-                            <h4>Altavian acquired by Teledyne FLIR</h4>
-                            <div>September 2017 to February 2020</div>
-                            <p>
-                                Teledyne FLIR is a global leader in the design, manufacture, and marketing of thermal imaging infrared cameras for various applications, such as surveillance, security, industrial, and scientific.
-                            </p>
+                            <a href='https://www.flir.com/' target='_blank'>
+                                <h3>Software Developer</h3>
+                                <h4>Altavian acquired by Teledyne FLIR</h4>
+                                <div>September 2017 to February 2020</div>
+                                <p>
+                                    Teledyne FLIR is a global leader in the design, manufacture, and marketing of thermal imaging infrared cameras for various applications, such as surveillance, security, industrial, and scientific.
+                                </p>
+                            </a>
                         </div>
                     </div>
                 </div>

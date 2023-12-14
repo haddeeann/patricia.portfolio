@@ -44,6 +44,11 @@ p {
     line-height: 2;
 }
 
+a {
+    text-decoration: none;
+    color: #505050;
+}
+
 @media(max-width: 976px) {
     .container {
         flex-flow: column;
