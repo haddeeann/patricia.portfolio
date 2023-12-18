@@ -22,7 +22,8 @@ const Sidebar = () => {
                             <a href='https://github.com/patricia-work-work' target='_blank'>PivotCX Github</a>
                         </li>
                         <li><a href='https://github.com/haddeeann' target='_blank'>Personal Github</a></li>
-                        <li><a href='https://leetcode.com/pattee/' target='_blank' rel='noreferrer'>Leet Code</a></li>
+                        <li><a href='https://leetcode.com/pattee/' target='_blank' rel='noreferrer'>JavaScript Leet Code</a></li>
+                        <li><a href='https://leetcode.com/haddeeann/' target='_blank' rel='noreferrer'>Python Leet Code</a></li>
                         <li><a href='https://codepen.io/pattee' target='_blank' rel='noreferrer'>Code Pen</a></li>
                         <li><a href='https://stackoverflow.com/users/2022724/someone-alive' target='_blank' rel='noreferrer'>Stack Overflow</a></li>
                         <li><a href='https://www.linkedin.com/in/patricia-green-63a3a4167/' target='_blank' rel='noreferrer'>Linked In</a></li>
