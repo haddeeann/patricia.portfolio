@@ -3,7 +3,18 @@
 .box-item {
     position: relative;
     display: flex;
+    background-color: lavender;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
     border-bottom: 2px solid #838383;
+    transition: filter 1s, border 1s;
+}
+
+.box-item:hover {
+    -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0);
+    cursor: pointer;
+    border-bottom: 2px solid indigo;
 }
 
 .three-item-list .item {
@@ -26,18 +37,17 @@
 }
 .fade {
     background-color: #e9e9e9;
-    border: 2px solid;
-    border-radius: .25em;
+    border-bottom: 2px solid #838383;
     font: inherit;
     padding: .5em 1em;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
-    transition: background-color 2s, border 2s;
+    transition: background-color 1s, border 1s;
 }
 
 .fade:hover {
     background-color: lavender;
-    border: 2px solid indigo;
+    border-bottom: 2px solid indigo;
     cursor: pointer;
 }
 
