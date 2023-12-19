@@ -5,7 +5,7 @@ const BoxItem = ({ link, badge, title, description }) => {
     return (
         <div>
             <a href={link} target='_blank'>
-                <div className='item-box'>
+                <div className='box-item'>
                     <HexBadge badge={badge} />
                     <div className='item'>
                         <h5>{title}</h5>
