@@ -16,7 +16,18 @@
     cursor: pointer;
     border-bottom: 2px solid indigo;
 }
-
+.box-item:hover .hexBadgeTop {
+    border-bottom: solid 30px indigo;
+    opacity: .9;
+}
+.box-item:hover .hexBadgeMiddle {
+    background-color: indigo;
+    opacity: .9;
+}
+.box-item:hover .hexBadgeBottom {
+    border-top: solid 30px indigo;
+    opacity: .9;
+}
 .three-item-list .item {
     flex-grow: 1;
     box-shadow: #e4e4e4 0 8px 24px;

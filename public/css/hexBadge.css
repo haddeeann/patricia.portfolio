@@ -11,22 +11,25 @@
 
 .hexBadgeTop {
     width: 0px;
-    border-bottom: solid 30px #838383;
+    border-bottom: solid 30px var(--dark-gray);
     border-left: solid 52px transparent;
     border-right: solid 52px transparent;
+    transition: border-bottom 1.5s;
 }
 .hexBadgeMiddle {
     width: 104px;
     height: 60px;
-    background-color: #838383;
+    background-color: var(--dark-gray);
     text-align: center;
+    transition: background-color 1.5s;
 }
 .hexBadgeMiddle i {
     color: white;
 }
 .hexBadgeBottom {
     width: 0px;
-    border-top: solid 30px #838383;
+    border-top: solid 30px var(--dark-gray);
     border-left: solid 52px transparent;
     border-right: solid 52px transparent;
+    transition: border-top 1.5s;
 }
