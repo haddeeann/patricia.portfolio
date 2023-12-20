@@ -1,4 +1,17 @@
 
+.portfolio-row {
+    filter: grayscale(100%);
+    border-bottom: 2px solid #838383;
+    transition: filter 1s, border 1s;
+}
+
+.portfolio-row:hover {
+    -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0);
+    cursor: pointer;
+    border-bottom: 2px solid indigo;
+}
+
 @media(min-width: 977px) {
     .portfolio a {
         display: block;
@@ -27,10 +40,11 @@
     }
     .portfolio-row {
         background-color: white;
+        margin-bottom: 2em;
     }
     .portfolio-row .description {
-        padding: 1.5em 1em;
+        padding: 1em;
         background-color: #fff;
-        margin-bottom: 2em;
+
     }
 }
