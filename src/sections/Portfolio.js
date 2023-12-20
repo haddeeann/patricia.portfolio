@@ -4,8 +4,8 @@ import adventure_dog from '../images/adventure_dog_web_page.png'
 
 const Portfolio = () => {
     return (
-        <div className='box' id='portfolio'>
-            <div className='inner-box'>
+        <div className='box'>
+            <div className='inner-box' id='portfolio'>
                 <div className='content'>
                     <h2>Portfolio</h2>
                     <div className='portfolio-section'>

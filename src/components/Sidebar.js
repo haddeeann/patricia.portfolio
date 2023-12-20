@@ -11,8 +11,9 @@ const Sidebar = () => {
                 </div>
                 <div className='nav-section'>
                     <nav>
-                        <div className='nav-link'><a href='#skills'>Skills</a></div>
-                        <div className='nav-link'><a href='#time'>Timeline</a></div>
+                        <div className='nav-link'><a href='#portfolio'>Portfolio</a></div>
+                        <div className='nav-link'><a href='#skills'>Technical Skills</a></div>
+                        <div className='nav-link'><a href='#time'>Professional Timeline</a></div>
                     </nav>
                 </div>
                 <div className='social'>

@@ -1,5 +1,5 @@
 import React from 'react';
-import BoxItem from './BoxItem'
+import BoxItem from '../components/BoxItem'
 
 const Skills = () => {
     return (

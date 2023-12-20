@@ -1,5 +1,5 @@
 import React from 'react';
-import TimeBox from './TimeBox'
+import TimeBox from '../components/TimeBox'
 
 const Timeline = () => {
     return (
