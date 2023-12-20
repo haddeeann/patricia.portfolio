@@ -13,17 +13,15 @@
 }
 
 @media(min-width: 977px) {
-    .portfolio a {
+    .portfolio-section a {
         display: block;
-        margin-bottom: var(--basic-padding);
     }
     .portfolio-row {
         display: flex;
         justify-content: space-between;
-        background-color: white;
     }
-    .portfolio-row:last-of-type {
-        margin-bottom: 0;
+    .portfolio-section + .portfolio-section {
+        margin-top: var(--basic-padding);
     }
     .portfolio-row div {
         flex-basis: 50%;
