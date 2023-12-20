@@ -6,7 +6,7 @@ const Skills = () => {
         <div className='box'>
             <div className='inner-box' id='skills'>
                 <div className='content'>
-                    <h3>TECHNICAL SKILLS</h3>
+                    <h2>Technical Skills</h2>
                     <div className='three-item-list'>
                         <BoxItem
                             link='#'

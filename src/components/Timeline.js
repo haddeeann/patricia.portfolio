@@ -6,7 +6,7 @@ const Timeline = () => {
         <div className='box'>
             <div className='inner-box' id='time'>
                 <div className='content'>
-                    <h2>PROFESSIONAL TIMELINE</h2>
+                    <h2>Professional Timeline</h2>
                     <TimeBox
                         title='Fullstack Developer'
                         company='PivotCX'
