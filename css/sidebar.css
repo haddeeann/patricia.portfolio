@@ -28,7 +28,6 @@
 .sidebar nav a, .sidebar .social a, .sidebar a {
     text-decoration: none;
     color: #838383;
-    text-transform: uppercase;
 }
 
 .social a:hover {
