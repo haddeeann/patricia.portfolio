@@ -1,3 +1,9 @@
+@import url('./css/app.css');
+@import url('./css/bar.css');
+@import url('./css/hexBadge.css');
+@import url('./css/introduction.css');
+@import url('./css/portfolio.css');
+@import url('./css/sidebar.css');
 :root {
   --dark-gray: #838383;
   --basic-padding: 35px;
