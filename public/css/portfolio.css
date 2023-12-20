@@ -1,0 +1,36 @@
+
+@media(min-width: 977px) {
+    .portfolio a {
+        display: block;
+        margin-bottom: var(--basic-padding);
+    }
+    .portfolio-row {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+    }
+    .portfolio-row:last-of-type {
+        margin-bottom: 0;
+    }
+    .portfolio-row div {
+        flex-basis: 50%;
+    }
+    .portfolio-row .description {
+        padding: 1em;
+    }
+}
+
+
+@media(max-width: 976px) {
+    .portfolio {
+        margin-top: 2em;
+    }
+    .portfolio-row {
+        background-color: white;
+    }
+    .portfolio-row .description {
+        padding: 1.5em 1em;
+        background-color: #fff;
+        margin-bottom: 2em;
+    }
+}

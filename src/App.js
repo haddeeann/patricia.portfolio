@@ -1,6 +1,7 @@
 import Sidebar from './components/Sidebar';
 import Skills from './components/Skills';
 import Timeline from './components/Timeline';
+import Portfolio from './components/Portfolio'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Sidebar />
 
       <div className='bar'>
+          <Portfolio className='box'/>
         <Skills className='box' />
         <Timeline className='box' />
       </div>

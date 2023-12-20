@@ -4,7 +4,7 @@ import HexBadge from "./HexBadge";
 const BoxItem = ({ link, badge, title, description }) => {
     return (
         <div>
-            <a href={link} target='_blank'>
+            <a href={link} target='_blank' rel='noreferrer'>
                 <div className='box-item'>
                     <HexBadge badge={badge} />
                     <div className='item'>
