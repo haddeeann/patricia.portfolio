@@ -2,6 +2,7 @@ import React from 'react';
 import data_frog from '../images/data_frog_web_page.png';
 import adventure_dog from '../images/adventure_dog_web_page.png';
 import distraction_free from '../images/distractionfree_web_page.png'
+import flex_box from '../images/flex_box_web_page.png';
 
 const Portfolio = () => {
     return (
@@ -9,6 +10,18 @@ const Portfolio = () => {
             <div className='inner-box' id='portfolio'>
                 <div className='content'>
                     <h2>Portfolio</h2>
+                    <div className='portfolio-section'>
+                        <a href='https://foxycss.netlify.app/' target='_blank' rel='noreferrer'>
+                            <div className='portfolio-row'>
+                                <div>
+                                    <img width='100%' height='100%' src={flex_box} alt='Flex Box CSS' />
+                                </div>
+                                <div className='description'>
+                                    A CSS flexbox page with all the basic flexbox displayed.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                     <div className='portfolio-section'>
                         <a href='https://distractionfree.netlify.app/' target='_blank' rel='noreferrer'>
                             <div className='portfolio-row'>
