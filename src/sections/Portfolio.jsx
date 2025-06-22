@@ -5,8 +5,15 @@ import adventure_dog from "../images/adventure_dog_web_page.png";
 import distraction_free from "../images/distractionfree_web_page.png";
 import flex_box from "../images/flex_box_web_page.png";
 import take_note from "../images/take_note.png";
+import tile_game from "../images/tile_game.png";
 
 const projects = [
+    {
+        title: "Tile Game",
+        description: "A cozy game of placing tiles.",
+        link: "https://dancing-centaur-tile-game.netlify.app/",
+        image: tile_game,
+    },
     {
         title: "Note Taking App",
         description: "A basic note taking app with Firebase login and register.",
