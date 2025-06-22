@@ -2,7 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-green-100 text-center;
-}
-
