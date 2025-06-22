@@ -21,13 +21,15 @@ const Sidebar = () => {
                 <ul className="space-y-1 text-sm">
                     <li><a href="#portfolio" className="hover:underline">Portfolio</a></li>
                     <li><a href="#skills" className="hover:underline">Technical Skills</a></li>
-                    <li><a href="#time" className="hover:underline">Professional Timeline</a></li>
+                    <li>
+                        <a href="#timeline" className="hover:underline">Professional Timeline</a>
+                    </li>
                 </ul>
             </nav>
 
             {/* Social Links */}
             <div>
-                <h3 className="text-lg font-semibold mb-2">Social & Sites</h3>
+            <h3 className="text-lg font-semibold mb-2">Social & Sites</h3>
                 <ul className="space-y-1 text-sm">
                     <li><a href="https://github.com/patricia-work-work" target="_blank" rel="noreferrer" className="hover:underline">PivotCX Github</a></li>
                     <li><a href="https://github.com/haddeeann" target="_blank" rel="noreferrer" className="hover:underline">Personal Github</a></li>
