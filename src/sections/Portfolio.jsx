@@ -42,7 +42,7 @@ const projects = [
 const Portfolio = () => {
     return (
         <section className="py-8 px-4" id="portfolio">
-            <div className="max-w-6xl mx-auto">
+            <div className="max-w-6xl">
                 <h2 className="text-3xl font-bold mb-6">Portfolio</h2>
                 <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                     {projects.map((project) => (
