@@ -5,7 +5,7 @@ import { faEnvelope, faHeart, faMugHot } from '@fortawesome/free-solid-svg-icons
 const Sidebar = () => {
     return (
         <aside
-            className="h-full w-full max-w-xs text-gray-800 dark:text-gray-100 p-6 rounded-none space-y-8">
+            className="h-full w-full max-w-xs text-gray-800 p-6 rounded-none space-y-8">
 
             {/* Profile */}
             <div className="text-center space-y-2">
