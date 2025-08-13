@@ -20,7 +20,7 @@ const Sidebar = () => {
             <nav className="space-y-2">
                 <h3 className="text-lg font-semibold mb-1">Navigation</h3>
                 <ul className="space-y-1 text-sm">
-                    <li><a href="#portfolio" className="hover:underline">Portfolio</a></li>
+                    <li><a href="#portfolio" className="hover:underline">Projects</a></li>
                     <li><a href="#skills" className="hover:underline">Technical Skills</a></li>
                     <li>
                         <a href="#timeline" className="hover:underline">Professional Timeline</a>
