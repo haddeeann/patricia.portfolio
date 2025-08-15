@@ -3,11 +3,12 @@ import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowUpRightFromSquare, faHeart, faMugHot} from "@fortawesome/free-solid-svg-icons";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import Badge from "./ui/badge";
 
-const ProjectCard = ({ image, title, description, siteLink, githubLink }) => {
+const ProjectCard = ({ image, title, description, siteLink, githubLink, tags }) => {
     return (
         <div
-            className="block group overflow-hidden rounded-xl border bg-white shadow-sm hover:scale-105 transition duration-200"
+            className="flex flex-col h-full group overflow-hidden rounded-xl border bg-white shadow-sm hover:scale-105 transition duration-200"
         >
             <div className="relative">
                 <img
@@ -21,9 +22,12 @@ const ProjectCard = ({ image, title, description, siteLink, githubLink }) => {
                 </div>
             </div>
 
-            <div className="p-4">
+            <div className="p-4 flex-1">
                 <h3 className="text-lg font-semibold text-gray-800">{title}</h3>
                 <p className="mt-2 text-sm text-gray-600">{description}</p>
+            </div>
+            <div className="px-4 mt-auto mb-4">
+                {tags.map((tag, index) => <Badge className="bg-blue-400" key={index}>{tag}</Badge>)}
             </div>
         </div>
     );

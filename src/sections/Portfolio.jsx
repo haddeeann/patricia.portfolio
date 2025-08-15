@@ -14,6 +14,7 @@ const projects = [
         siteLink: "https://dancing-centaur-tile-game.netlify.app/",
         githubLink: "https://github.com/haddeeann/tile-game",
         image: tile_game,
+        tags: ["HTMLElement", "CSS", "JavaScript"]
     },
     {
         title: "Note Taking App",
@@ -21,6 +22,7 @@ const projects = [
         siteLink: "https://illustrious-biscochitos-cdd8ac.netlify.app/auth",
         githubLink: "https://github.com/haddeeann/take-note",
         image: take_note,
+        tags: ["Firebase", "Vue 3", "CSS", "JavaScript"]
     },
     {
         title: "Flexbox CSS Demo",
@@ -28,6 +30,7 @@ const projects = [
         siteLink: "https://foxycss.netlify.app/",
         githubLink: "https://github.com/haddeeann/cssgarden",
         image: flex_box,
+        tags: ["React", "CSS"]
     },
     {
         title: "Blog created with Django and Vue 3",
@@ -35,6 +38,7 @@ const projects = [
         siteLink: "https://tinywordsmith.netlify.app/",
         githubLink: "https://github.com/haddeeann/marketing-inkwell-ui",
         image: distraction_free,
+        tags: ["Django", "Vue 3", "Sass", "JavaScript"]
     },
     {
         title: "Data Frog",
@@ -42,6 +46,7 @@ const projects = [
         siteLink: "https://data-frog.netlify.app/numpy/1_create_array/",
         githubLink: "https://github.com/haddeeann/data_frog",
         image: data_frog,
+        tags: ["Eleventy", "CSS", "Markdown"]
     },
     {
         title: "Adventure Dog",
@@ -49,6 +54,7 @@ const projects = [
         siteLink: "https://adventure-dog.netlify.app/",
         githubLink: "https://github.com/haddeeann/adventuredog",
         image: adventure_dog,
+        tags: ["Gatsby", "CSS", "Markdown"]
     },
 ];
 
