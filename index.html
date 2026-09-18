@@ -1,44 +1,179 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="./favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Portfolio for Patricia Green" />
-  <link rel="apple-touch-icon" href="./images/unicorn.png" />
-  <link rel="manifest" href="./manifest.json" />
-
-  <!-- Fonts -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio for Patricia Green">
+  <meta name="theme-color" content="#e9e6da">
+  <title>Patricia Green — Software Developer</title>
+  <link rel="icon" href="./images/unicorn.png" type="image/png">
+  <link rel="apple-touch-icon" href="./images/unicorn.png">
+  <link rel="manifest" href="./manifest.json">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-  <title>Software Developer</title>
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X76JF21QDK"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-X76JF21QDK');
-  </script>
-  <script type="module" crossorigin src="./assets/index-DrYPaS-z.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-Dk4S8fOu.css">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/main.js" defer></script>
 </head>
 <body>
-<noscript>
-  <p>You should have JavaScript enabled to see this webpage properly.</p>
-  <p>In the meanwhile, I've left a short story for you <a href="./egg.html">here</a>. It's not my short story, but it's good.</p>
-</noscript>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-<div id="root"></div>
+  <div class="site-shell">
+    <aside class="rail" aria-label="Site navigation">
+      <div class="rail__top">
+        <a class="wordmark" href="#projects" aria-label="Patricia Green, back to projects">Patricia<span>.</span></a>
+        <nav class="primary-nav" aria-label="Portfolio sections">
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#timeline">Timeline</a>
+        </nav>
+      </div>
 
-<script src="./js/vanilla.js"></script>
-<script src="https://kit.fontawesome.com/ecc099d6de.js" crossorigin="anonymous"></script>
+      <div class="rail__social">
+        <p>Social &amp; sites</p>
+        <ul>
+          <li><a href="https://github.com/haddeeann" target="_blank" rel="noreferrer">GitHub</a></li>
+          <li><a href="https://leetcode.com/haddeeann/" target="_blank" rel="noreferrer">LeetCode <span>JavaScript</span></a></li>
+          <li><a href="https://leetcode.com/pattee/" target="_blank" rel="noreferrer">LeetCode <span>Python</span></a></li>
+          <li><a href="https://codepen.io/pattee" target="_blank" rel="noreferrer">CodePen</a></li>
+          <li><a href="https://stackoverflow.com/users/2022724/someone-alive" target="_blank" rel="noreferrer">Stack Overflow</a></li>
+          <li><a href="https://www.linkedin.com/in/patricia-green-63a3a4167/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+          <li><a href="https://pivotcx.io/" target="_blank" rel="noreferrer">PivotCX</a></li>
+        </ul>
+      </div>
+    </aside>
 
-<!-- Vite entry point -->
+    <main id="main-content">
+      <section class="section section--projects" id="projects" aria-labelledby="projects-title">
+        <header class="section-heading intro">
+          <p class="section-number" aria-hidden="true">01</p>
+          <h1 id="projects-title">Projects</h1>
+        </header>
+
+        <div class="project-list">
+          <article class="project">
+            <a class="project__image" href="https://wildwood-game.netlify.app/" target="_blank" rel="noreferrer" aria-label="Open Wildwood live site">
+              <img src="./assets/wildwood.png" alt="Wildwood game showing its habitat draft shelf and two hex-grid sanctuaries" width="1600" height="853">
+            </a>
+            <div class="project__copy">
+              <h2><a href="https://wildwood-game.netlify.app/" target="_blank" rel="noreferrer">Wildwood</a></h2>
+              <p>A hex-tile habitat drafting game—build a sanctuary across four seasons against a bot opponent.</p>
+              <a class="code-link" href="https://github.com/haddeeann/wildwood" target="_blank" rel="noreferrer">View code</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <a class="project__image" href="https://patchwork-garden.netlify.app/" target="_blank" rel="noreferrer" aria-label="Open Patchwork Garden live site">
+              <img src="./assets/patchwork-garden.png" alt="Patchwork Garden game showing seasonal quests, quilt boards, and a patch market" width="1600" height="900">
+            </a>
+            <div class="project__copy">
+              <h2><a href="https://patchwork-garden.netlify.app/" target="_blank" rel="noreferrer">Patchwork Garden</a></h2>
+              <p>A quilt-pattern drafting game with seasonal quests and corner-stitch scoring.</p>
+              <a class="code-link" href="https://github.com/haddeeann/tile-game" target="_blank" rel="noreferrer">View code</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <a class="project__image" href="https://foxycss.netlify.app/" target="_blank" rel="noreferrer" aria-label="Open Flexbox CSS Demo live site">
+              <img src="./assets/flexbox.png" alt="Flexbox CSS Demo interface with property controls and colorful examples" width="2880" height="1558" loading="lazy">
+            </a>
+            <div class="project__copy">
+              <h2><a href="https://foxycss.netlify.app/" target="_blank" rel="noreferrer">Flexbox CSS Demo</a></h2>
+              <p>A visual demo of all the major CSS Flexbox properties.</p>
+              <ul class="tags" aria-label="Flexbox CSS Demo technologies"><li>React</li><li>CSS</li></ul>
+              <a class="code-link" href="https://github.com/haddeeann/cssgarden" target="_blank" rel="noreferrer">View code</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <a class="project__image" href="https://tinywordsmith.netlify.app/" target="_blank" rel="noreferrer" aria-label="Open Tiny Wordsmith live site">
+              <img src="./assets/tinywordsmith.png" alt="Minimal writing interface for a Django and Vue blog" width="1883" height="1664" loading="lazy">
+            </a>
+            <div class="project__copy">
+              <h2><a href="https://tinywordsmith.netlify.app/" target="_blank" rel="noreferrer">Blog with Django and Vue 3</a></h2>
+              <p>A blog created with Django and Vue 3.</p>
+              <ul class="tags" aria-label="Blog technologies"><li>Django</li><li>Vue 3</li><li>Sass</li><li>JavaScript</li></ul>
+              <a class="code-link" href="https://github.com/haddeeann/marketing-inkwell-ui" target="_blank" rel="noreferrer">View code</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <a class="project__image" href="https://data-frog.netlify.app/" target="_blank" rel="noreferrer" aria-label="Open Data Frog live site">
+              <img src="./assets/data-frog.png" alt="Data Frog site with a dark header and a list of data science notes" width="2370" height="1282" loading="lazy">
+            </a>
+            <div class="project__copy">
+              <h2><a href="https://data-frog.netlify.app/" target="_blank" rel="noreferrer">Data Frog</a></h2>
+              <p>My writing and notes while learning data science.</p>
+              <ul class="tags" aria-label="Data Frog technologies"><li>Eleventy</li><li>CSS</li><li>Markdown</li></ul>
+              <a class="code-link" href="https://github.com/haddeeann/data_frog" target="_blank" rel="noreferrer">View code</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <a class="project__image" href="https://adventure-dog.netlify.app/" target="_blank" rel="noreferrer" aria-label="Open Adventure Dog live site">
+              <img src="./assets/adventure-dog.png" alt="Adventure Dog blog with two dogs walking on a trail" width="2370" height="1282" loading="lazy">
+            </a>
+            <div class="project__copy">
+              <h2><a href="https://adventure-dog.netlify.app/" target="_blank" rel="noreferrer">Adventure Dog</a></h2>
+              <p>Dog blog with markdown-powered articles. Just for fun.</p>
+              <ul class="tags" aria-label="Adventure Dog technologies"><li>Gatsby</li><li>CSS</li><li>Markdown</li></ul>
+              <a class="code-link" href="https://github.com/haddeeann/adventuredog" target="_blank" rel="noreferrer">View code</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills" aria-labelledby="skills-title">
+        <header class="section-heading">
+          <p class="section-number" aria-hidden="true">02</p>
+          <h2 id="skills-title">Skills</h2>
+        </header>
+        <div class="skill-list">
+          <article>
+            <h3>Programming languages</h3>
+            <p>I focus on Python and JavaScript as my main programming languages.</p>
+          </article>
+          <article>
+            <h3>Data analysis</h3>
+            <p>I’m learning more about machine learning through online courses and documenting the work in <a href="https://data-frog.netlify.app/" target="_blank" rel="noreferrer">Data Frog</a>.</p>
+          </article>
+          <article>
+            <h3>Algorithms</h3>
+            <p>I work through LeetCode problems to keep building my algorithmic problem-solving skills.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="timeline" aria-labelledby="timeline-title">
+        <header class="section-heading">
+          <p class="section-number" aria-hidden="true">03</p>
+          <h2 id="timeline-title">Professional timeline</h2>
+        </header>
+        <div class="timeline-list">
+          <article>
+            <p class="timeline-list__date">Feb 2022—present</p>
+            <div><h3>Fullstack Developer</h3><p><a href="https://pivotcx.io/" target="_blank" rel="noreferrer">Daxtra</a></p><p>Helping recruiters reach the right candidates faster.</p></div>
+          </article>
+          <article>
+            <p class="timeline-list__date">Jan 2021—present</p>
+            <div><h3>Software Developer</h3><p>Yellow Umbrella Creators</p><p>My personal project company.</p></div>
+          </article>
+          <article>
+            <p class="timeline-list__date">Mar 2020—Jan 2021</p>
+            <div><h3>Software Developer</h3><p><a href="https://www.constantcontact.com/" target="_blank" rel="noreferrer">SharpSpring / Constant Contact</a></p><p>Worked on tools that automate customer communication and marketing.</p></div>
+          </article>
+          <article>
+            <p class="timeline-list__date">Sep 2017—Feb 2020</p>
+            <div><h3>Software Developer</h3><p><a href="https://www.flir.com/" target="_blank" rel="noreferrer">Altavian / Teledyne FLIR</a></p><p>Built software at a company specializing in thermal imaging and sensing technologies.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <footer>
+        <p>Designed and built by Patricia Green.</p>
+        <a href="#projects">Back to the top</a>
+      </footer>
+    </main>
+  </div>
 </body>
 </html>
-
