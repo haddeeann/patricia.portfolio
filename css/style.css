@@ -128,8 +128,8 @@ main {
 .section-heading h1,
 .section-heading h2 {
   margin: 0;
-  font: 600 clamp(3.5rem, 8vw, 8rem)/0.88 var(--font-display);
-  letter-spacing: -0.06em;
+  font: 600 1.625rem/1.1 var(--font-display);
+  letter-spacing: -0.01em;
 }
 
 .section-number {
@@ -145,12 +145,6 @@ main {
 .section-heading--projects {
   display: block;
   margin-bottom: 1.25rem;
-}
-
-.section-heading--projects h1 {
-  font-size: 1.625rem;
-  line-height: 1.1;
-  letter-spacing: -0.01em;
 }
 
 .project-list {
@@ -325,9 +319,7 @@ footer p { margin: 0; }
   .section { padding-top: 4.5rem; }
   .section--projects { padding-top: 2.5rem; }
   .section-heading { grid-template-columns: 1.5rem 1fr; gap: 0.65rem; }
-  .section-heading h1, .section-heading h2 { font-size: clamp(3rem, 17vw, 5rem); }
   .section-heading--projects { display: block; }
-  .section-heading--projects h1 { font-size: 1.625rem; }
   .section-number { margin-bottom: 0.3rem; }
   .timeline-list article { grid-template-columns: 1fr; gap: 0.65rem; }
   footer { flex-direction: column; margin-top: 4rem; }
