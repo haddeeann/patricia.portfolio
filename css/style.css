@@ -179,6 +179,10 @@ main {
 }
 
 .project__image:hover img { filter: saturate(1) contrast(1); }
+
+.project__image--fablefox { background: #121212; }
+.project__image--fablefox img { object-fit: contain; }
+
 .project__copy { max-width: 30rem; }
 
 .project__copy h2 {
