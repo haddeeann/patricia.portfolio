@@ -1,10 +1,14 @@
 :root {
-  --ink: #23281f;
-  --paper: #e9e6da;
-  --paper-raised: #f4f1e8;
-  --clay: #c1793a;
-  --moss: #3f6358;
-  --rule: #c9c4b4;
+  --ink: #18272d;
+  --paper: #f2f6f6;
+  --paper-raised: #ffffff;
+  --clay: #b54f2d;
+  --clay-bright: #ff9a62;
+  --moss: #2f6f70;
+  --rule: #cbd7d9;
+  --rail: #1b2b32;
+  --rail-ink: #edf4f3;
+  --rail-muted: #9fc1bd;
   --font-display: "Fraunces", serif;
   --font-body: "Archivo", sans-serif;
   --font-mono: "IBM Plex Mono", monospace;
@@ -25,6 +29,11 @@ body {
   background: var(--paper);
   font: 400 1.0625rem/1.6 var(--font-body);
   text-rendering: optimizeLegibility;
+}
+
+::selection {
+  color: var(--ink);
+  background: #b9dedd;
 }
 
 img { display: block; max-width: 100%; }
@@ -67,8 +76,9 @@ a:hover { color: var(--clay); }
   flex-direction: column;
   justify-content: space-between;
   padding: 2.25rem 2rem;
-  border-right: 1px solid var(--rule);
-  background: var(--paper);
+  color: var(--rail-ink);
+  border-right: 1px solid #31444c;
+  background: var(--rail);
 }
 
 .wordmark {
@@ -79,7 +89,7 @@ a:hover { color: var(--clay); }
   letter-spacing: -0.04em;
 }
 
-.wordmark span { color: var(--clay); }
+.wordmark span { color: var(--clay-bright); }
 .primary-nav { display: grid; gap: 0.35rem; }
 
 .primary-nav a {
@@ -89,11 +99,12 @@ a:hover { color: var(--clay); }
   text-decoration: none;
 }
 
-.primary-nav a[aria-current="true"] { color: var(--clay); }
+.rail a:hover,
+.primary-nav a[aria-current="true"] { color: var(--clay-bright); }
 
 .rail__social p {
   margin: 0 0 0.7rem;
-  color: var(--moss);
+  color: var(--rail-muted);
   font: 500 0.75rem/1.4 var(--font-mono);
 }
 
@@ -106,7 +117,7 @@ a:hover { color: var(--clay); }
 
 .rail__social ul { display: grid; gap: 0.2rem; }
 .rail__social a { font-size: 0.82rem; text-decoration: none; }
-.rail__social a span { color: var(--moss); font-size: 0.72rem; }
+.rail__social a span { color: var(--rail-muted); font-size: 0.72rem; }
 
 main {
   width: calc(100% - var(--rail-width));
@@ -170,6 +181,7 @@ main {
   width: 100%;
   height: 9.25rem;
   background: var(--paper-raised);
+  box-shadow: 0 0.65rem 1.5rem color-mix(in srgb, var(--ink) 8%, transparent);
 }
 
 .project__image::after {
@@ -308,7 +320,7 @@ footer p { margin: 0; }
     min-height: auto;
     padding: 1rem var(--page-pad);
     border-right: 0;
-    border-bottom: 1px solid var(--rule);
+    border-bottom: 1px solid #31444c;
   }
   .rail__top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
   .wordmark { margin: 0; font-size: 1.7rem; }
